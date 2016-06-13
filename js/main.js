@@ -8,6 +8,7 @@ firebase.initializeApp(config);
 ImageDealer.REF = firebase;
 var currentUser ;
 var fbProvider = new firebase.auth.FacebookAuthProvider();
+var ImageDealer = new ImageDealer();
 
 
 
